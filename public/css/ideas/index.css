@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    min-height: calc(100vh - 205px);
+    /* overflow-y:scroll; */
+}
+h1{
+    margin: 10px 0px;
+    text-align:center;
+}
+.custom-nav-bar{
+    height: 80px;
+}
+/* .nav-link, .navbar-brand{
+  color: white !important;
+} */
+.custom-nav-link, .custom-nav-brand{
+  color: black !important;
+}
+#icon-color-twitter{
+  color:#1DA1F2 ;
+}
+#icon-color-twitter:hover{
+  color:white ;
+}
+#button-icon-color-twitter:hover{
+  background-color: #1DA1F2;
+  transition: 0.5s ease all;
+}
+#icon-color-facebook{
+  color: #3b5998 ;
+}
+#icon-color-facebook:hover{
+  color:white ;
+}
+#button-icon-color-facebook:hover{
+  background-color:  #3b5998;
+  transition: 0.5s ease all;
+}
+#icon-color-mail{
+  color: grey;
+}
+#icon-color-mail:hover{
+  color:white;
+}
+#button-icon-color-mail:hover{
+  background-color: grey;
+  transition: 0.3s ease all;
+}
+#icon-color-linkedin{
+  color: #0072b1;
+}
+#icon-color-linkedin:hover{
+  color: white;
+}
+#button-icon-color-linkedin:hover{
+  background-color: #0072b1;
+  transition: 0.3s ease all;
+}
+
+.form-control{
+  outline: none !important;
+  box-shadow: unset !important;
+}
+.button{
+    background-color: transparent;
+    border: none;
+}
+.custom-nav-item{
+  margin-right: 10px;
+}
+.button-social-icons{
+  border-radius: 100%;
+  border: none;
+  font-size: 20px;
+  padding:10px 15px;
+  background-color: transparent;
+}
+/* Table */
+.custom-footer{
+  background-color: #3335b7c9 !important;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.custom-footer a{
+  color: white;
+  text-decoration: none;
+}
+.sidebar {
+  height: 100%;
+  width: 280px;
+  top: 0;
+  left: 0;
+  background-color:  #03045e;
+  color: #fff;
+  box-sizing: border-box;
+  transition: 0.5s ease all;
+}
+.sidebar header{
+  font-size: 22px;
+  text-align: center;
+  line-height: 70px;
+  background: #111;
+  user-select: none;
+}
+.sidebar ul{
+  list-style: none;
+  text-align: left;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+.sidebar li:hover a{
+  
+  padding-left: 12px;
+
+}
+#button{
+  padding: 10px 20px;
+  border-radius: 0.5em;
+  color: #03045e;
+}
+#button:hover{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 0.5s ease all;
+}
+.button-assigned-idea{
+  padding: 10px 30px;
+  border-radius: 0.5em;
+  background-color: #03045e;
+  color: white;
+  border: none;
+}
+.button-assigned-idea:hover{
+  background-color: transparent;
+  border: 1px solid #03045e;
+  color: #03045e;
+  transition: 0.5s ease all;
+}
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+}
+.assigned-idea {
+  background-color: #d4edda;
+}
+
+.assigned-idea input[type="checkbox"] {
+  pointer-events: none;
+}
