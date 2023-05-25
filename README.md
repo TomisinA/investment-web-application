@@ -1,6 +1,17 @@
 # investment-web-application
 This is an Investment Ideas Web Application built with my school colleagues using Agile Methodology and technologies such as HTML,  CSS, JavaScript, Laravel, Figma, MySQL, and PHP.
 
+Just incase there are difficulties encountered while running the code, these are some steps to try:
+
+1. Open the folder on vs code, open terminal and run the following
+2. 'composer update'
+3. 'cp .env.example .env' and name the database file from laravel to yours (e.g.investment_app)
+4. 'php artisan key:generate'
+5. 'php artisan migrate:refresh --seed'
+
+Then run the code ('php artisan serve') and it is good to go.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
